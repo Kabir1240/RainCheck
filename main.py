@@ -77,7 +77,7 @@ def main():
             break
 
     if not rain:
-        messagebox.showinfo(title="Yay!", text="Looks like no rain today!")
+        messagebox.showinfo(title="Yay!", message="Looks like no rain today!")
 
 
 if __name__ == "__main__":
