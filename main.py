@@ -66,9 +66,7 @@ def main():
 
     rain = False
     for forecast in data["list"]:
-        print(forecast["dt_txt"])
         for weather in forecast["weather"]:
-            print(weather["id"])
             if weather["id"] < 700:
                 rain = True
                 break
